@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UrbanNest Towers</title>
+
+
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+  <!-- External CSS (hook up your stylesheet here) -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <!-- Google Fonts (optional, same as original) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  
+  <header class="header" data-header>
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+        <ul class="header-top-list">
+          <li>
+            <a href="mailto:Kamalakannan9491@gmail.com" class="header-top-link" aria-label="Email">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <span>Kamalakannan9491@gmail.com</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="header-top-link">
+              <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+              <span>15/A, Silver Nest Tower </span>
+            </a>
+          </li>
+
+        </ul>
+
+    <div class="wrapper">
+      <ul class="header-top-social-list">
+        <li>
+          <a href="#" class="header-top-social-link" aria-label="Facebook">
+              <ion-icon name="logo-facebook"></ion-icon>
+           </a>
+        </li>
+
+        <li>
+          <a href="#" class="header-top-social-link" aria-label="Twitter">
+              <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="header-top-social-link" aria-label="Instagram">
+              <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="header-top-social-link" aria-label="Whatsapp">
+              <ion-icon name="logo-Whatsapp"></ion-icon>
+          </a>
+        </li>
+      </ul>
+
+          <button class="header-top-btn" type="button">Add Listing</button>
+        </div>
+
+    <div class="header-bottom">
+      <div class="container">
+
+        <a href="#home" class="logo" aria-label="Home">
+         
+          <img src="./assets/images/logo2.png "/>
+        </a>
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+            
+            <a href="#home" class="logo" aria-label="Home (mobile)">
+              <img src="./assets/images/logo.png"/>
+            </a>
+
+            <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <div class="navbar-bottom">
+            <ul class="navbar-list">
+              <li>
+                <a href="#home" class="navbar-link" data-nav-link>Home</a>
+              </li>
+              <li>
+                <a href="#about" class="navbar-link" data-nav-link>About</a>
+              </li>
+              <li>
+                <a href="#service" class="navbar-link" data-nav-link>Service</a>
+              </li>
+              <li>
+                <a href="#property" class="navbar-link" data-nav-link>Property</a>
+              </li>
+              <li>
+                <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+              </li>
+              <li>
+                <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="header-bottom-actions">
+          <button class="header-bottom-actions-btn" aria-label="Search">
+            <ion-icon name="search-outline"></ion-icon>
+            <span>Search</span>
+          </button>
+
+          <button class="header-bottom-actions-btn" aria-label="Profile">
+            <ion-icon name="person-outline"></ion-icon>
+            <span>Profile</span>
+          </button>
+
+          <button class="header-bottom-actions-btn" aria-label="Cart">
+            <ion-icon name="cart-outline"></ion-icon>
+            <span>Cart</span>
+          </button>
+
+          <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Open Menu">
+            <ion-icon name="menu-outline"></ion-icon>
+            <span>Menu</span>
+
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <article>
+     
+      <section class="hero" id="home" aria-label="Hero">
+        <div class="container">
+          <div class="hero-content">
+            <p class="hero-subtitle"><ion-icon name="home" aria-hidden="true"></ion-icon><span>Building The Future</span></p>
+
+            <h1 class="h1 hero-title"> GOLDEN NEST"A Home Made for Happiness"</h1>
+
+            <p class="hero-text">Short intro text goes here.</p>
+
+            <button class="btn" type="button">Make An Enquiry for details</button>
+
+          </div>
+
+  <figure class="hero-banner">
+    <img src="./assets/images/casagrand4.png" id="pic" alt="Modern house model" />
+    <button class="slider-btn prev" onclick="prev()">&#10094;</button>
+    <button class="slider-btn next" onclick="nxt()">&#10095;</button>
+  </figure>
+
+        </div>
+      </section>
+
+      <section class="about" id="about" aria-label="About">
+        <div class="container">
+          <figure class="about-banner">
+            <img src="./assets/images/Living-Room.png" alt="House interior">
+            <img src="./assets/images/living-area.png" alt="House interior" class="abs-img">
+          </figure>
+
+          <div class="about-content">
+            <p class="section-subtitle">About Us</p>
+
+            <h2 class="h2 section-title">Find Your Dream Apartment Today</h2>
+
+            <p class="about-text">Apartment designed with comfort and style in mind.</p>
+
+            <ul class="about-list">
+              <!-- Repeat li for more items -->
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="home-outline"></ion-icon>
+                </div>
+                <p class="about-item-text">Morden Living Spaces</p>
+              </li>
+
+              <li class="about-item">
+               <div class="about-item-icon">
+                <ion-icon name="home-outline"></ion-icon>
+               </div>
+               <p class="about-item-text">Modern & Spacious Living</p>
+             </li>
+
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="shield-checkmark-outline">
+                  </ion-icon>
+                </div>
+                <p class="about-item-text">24/7 Security</p>
+                </li>
+
+                 <li class="about-item">
+                  <div class="about-item-icon">
+                    <ion-icon name="person-outline"></ion-icon>
+                  </div>
+                   <p class="about-item-text">Contact Us</p>
+                </li>
+            </ul>
+
+            <p class="callout">"Smartly Designed Spaces for Modern Living,Designed to Inspire Productivity & Relaxation,Move Into Style, Stay for Comfort"</p>
+            <a href="#service" class="btn">Our Services</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section class="service" id="service">
+        <div class="container">
+
+          <p class="section-subtitle">Our Services</p>
+
+          <h2 class="h2 section-title">Our Main Focus</h2>
+
+          <ul class="service-list">
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-1.png" alt="Service icon">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Buy a home</a>
+                </h3>
+
+                <p class="card-text">
+                   "A house is more than walls and a roof.  it's where yours dreams find space, and your heart find peace,Every home tells a story make this one yours and let it hold your future"
+                </p>
+
+                <a href="#" class="card-link">
+                  <span>Find A Home</span>
+
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-2.png" alt="Service icon">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Rent a home</a>
+                </h3>
+
+                <p class="card-text">
+                  "More than tenants, we welcome families to aplace they can truly call home,Trusted by hundreds who found not just a rental, but the right place to belong,Rent with ease,live with joy home your journey begins here"
+                </p>
+
+                <a href="#" class="card-link">
+                  <span>Find A Home</span>
+
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-3.png" alt="Service icon">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Sell a home</a>
+                </h3>
+
+                <p class="card-text">
+                 "Every home has a story. let us help you share yours, and find the perfect buyer.Selling a home is more than a transaction it's passing on memories,and opening doors for new beginnings"
+                </p>
+
+                <a href="#" class="card-link">
+                  <span>Find A Home</span>
+
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="property" id="property" aria-label="Featured Properties">
+        <div class="container">
+          <p class="section-subtitle"> Our Properties</p>
+          
+          <h2 class="h2 section-title">Homes that Inspire Dreams</h2>
+
+          <ul class="property-list has-scrollbar">
+            <li>
+              <article class="property-card">
+                <figure class="card-banner">
+                  <a href="#"><img src="./assets/images/project 1.png" alt="New Apartment Nice View" class="w-100"/></a>
+                  <div class="card-badge green">For Sell</div>
+
+                  <div class="banner-actions">
+
+                    <button class="banner-actions-btn"><ion-icon name="location"></ion-icon>
+                      <span>NO.5 12th Main Road,Vijaya Nagar VELACHERY Chennai-600042</span>
+                    </button>
+                    <button class="banner-actions-btn"><ion-icon name="camera"></ion-icon>
+                      <span>4</span>
+                    </button>
+                    <button class="banner-actions-btn"><ion-icon name="film"></ion-icon>
+                      <span>2</span>
+                    </button>
+                  </div>
+                </figure>
+
+                <div class="card-content">
+                  <div class="card-price"><strong>RS:29,00,000</strong>
+                  </div>
+                  <h3 class="h3 card-title"><a href="#">appartment good view</a>
+                  </h3>
+                  <p class="card-text">Short listing description here.</p>
+                  <ul class="card-list">
+                    <li class="card-item">
+                      <strong>2</strong><ion-icon name="bed-outline"></ion-icon>
+                      <span>Bedrooms</span>
+                    </li>
+                    <li class="card-item">
+                      <strong>2</strong><ion-icon name="man-outline"></ion-icon>
+                      <span>Bathrooms</span>
+                    </li>
+                    <li class="card-item">
+                      <strong>2980</strong>
+                      <ion-icon name="square-outline"></ion-icon>
+                      <span>Square Ft</span>
+                    </li>
+                  </ul>
+                </div>  
+              </article>
+            </li>
+
+            <li>
+              <article class="property-card">
+                <figure class="card-banner">
+                  <a href="#"><img src="./assets/images/project 2.png" alt="New Apartment Nice View" class="w-100" /></a>
+                  <div class="card-badge green">For Sell</div>
+                  <div class="banner-actions">
+                    <button class="banner-actions-btn">
+                      <ion-icon name="location"></ion-icon>
+                      <span>Kamal flats,Flat NO 5/3,Canal Road EAST TAMBARM Chennai=600059 </span>
+                    </button>
+                    <button class="banner-actions-btn">
+                      <ion-icon name="camera"></ion-icon>
+                      <span>6</span>
+                    </button>
+                    <button class="banner-actions-btn">
+                      <ion-icon name="film"></ion-icon>
+                      <span>3</span>
+                    </button>
+                  </div>
+                </figure>
+                <div class="card-content">
+                  <div class="card-price">
+                    <strong>RS:38,00,000</strong>
+                  </div>
+                  <h3 class="h3 card-title">
+                    <a href="#">Newly Designed specious Model</a>
+                  </h3>
+                  <p class="card-text">Short listing description here.</p>
+                  <ul class="card-list">
+                    <li class="card-item">
+                      <strong>3</strong>
+                      <ion-icon name="bed-outline"></ion-icon>
+                      <span>Bedrooms</span>
+                    </li>
+                    <li class="card-item">
+                      <strong>3</strong>
+                      <ion-icon name="man-outline"></ion-icon>
+                      <span>Bathrooms</span>
+                    </li>
+                    <li class="card-item">
+                      <strong>3800</strong>
+                      <ion-icon name="square-outline"></ion-icon>
+                      <span>Square Ft</span>
+                    </li>
+                  </ul>
+                </div>
+               
+              </article>
+            </li>
+
+            <li>
+              <article class="property-card">
+                <figure class="card-banner">
+                  <a href="#"><img src="./assets/images/project 3.png" alt="New Apartment Nice View" class="w-100" /></a>
+                  <div class="card-badge green">For Sell</div>
+                  <div class="banner-actions">
+                    <button class="banner-actions-btn"><ion-icon name="location"></ion-icon><span>Janani Flats,NO 155,8th Sector KK NAGAR WEST Chennai-600078</span></button>
+                    <button class="banner-actions-btn"><ion-icon name="camera"></ion-icon><span>8</span></button>
+                    <button class="banner-actions-btn"><ion-icon name="film"></ion-icon><span>6</span></button>
+                  </div>
+                </figure>
+                <div class="card-content">
+                  <div class="card-price"><strong>RS: 48,00,000</strong></div>
+                  <h3 class="h3 card-title"><a href="#">Outdoor view visit by customer</a></h3>
+                  <p class="card-text">Short listing description here.</p>
+                  <ul class="card-list">
+                    <li class="card-item"><strong>4</strong><ion-icon name="bed-outline"></ion-icon><span>Bedrooms</span></li>
+                    <li class="card-item"><strong>4</strong><ion-icon name="man-outline"></ion-icon><span>Bathrooms</span></li>
+                    <li class="card-item"><strong>4880</strong><ion-icon name="square-outline"></ion-icon><span>Square Ft</span></li>
+                  </ul>
+                </div>
+        
+              </article>
+            </li>
+
+            <li>
+              <article class="property-card">
+                <figure class="card-banner">
+                  <a href="#"><img src="./assets/images/project 4.2.png" alt="New Apartment Nice View" class="w-100" /></a>
+                  <div class="card-badge green">For Sell</div>
+                  <div class="banner-actions">
+                    <button class="banner-actions-btn"><ion-icon name="location"></ion-icon><span>Amudhavalli Beach House,NO 95 ECR ROAD,Chennai-6000778</span></button>
+                    <button class="banner-actions-btn"><ion-icon name="camera"></ion-icon><span>15</span></button>
+                    <button class="banner-actions-btn"><ion-icon name="film"></ion-icon><span>2</span></button>
+                  </div>
+                </figure>
+
+                <div class="card-content">
+                  <div class="card-price"><strong>RS:55,00,000</strong></div>
+                  <h3 class="h3 card-title"><a href="#">Newly Designed Nice Parts </a></h3>
+                  <p class="card-text">Short listing description here.</p>
+                  <ul class="card-list">
+                    <li class="card-item"><strong>5</strong><ion-icon name="bed-outline"></ion-icon><span>Bedrooms</span></li>
+                    <li class="card-item"><strong>5</strong><ion-icon name="man-outline"></ion-icon><span>Bathrooms</span></li>
+                    <li class="card-item"><strong>6320</strong><ion-icon name="square-outline"></ion-icon><span>Square Ft</span></li>
+                  </ul>
+                </div>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="features" aria-label="Amenities">
+        <div class="container">
+          <p class="section-subtitle">Our Amenities</p>
+          <h2 class="h2 section-title">Building Amenities</h2>
+          <ul class="features-list">
+        
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon"><ion-icon name="car-sport-outline"></ion-icon>
+                </div>
+                <h3 class="card-title">On-site-Parking</h3>
+
+                <div class="card-btn"><ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <ion-icon name="water-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Water Court</h3>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <ion-icon name="fitness-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Health & Wellness Center</h3>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <ion-icon name="library-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Knowledge Hub</h3>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <ion-icon name="home-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Innovative Living Spaces</h3>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <ion-icon name="football-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Kid’s Activity Area</h3>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <ion-icon name="shield-checkmark-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title"> 24/7 Private Security</h3>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+             <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <ion-icon name="bed-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Supreme Comfort Beds</h3>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="blog" id="blog" aria-label="Blog">
+        <div class="container">
+          <p class="section-subtitle">Highlights &amp; Features</p>
+          <h2 class="h2 section-title">The Update</h2>
+          <ul class="blog-list has-scrollbar">
+         
+<!------------------------------------------------------->
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner">
+                  <img src="./assets/images/interier1..6.png" alt="The Most Inspiring Interior Design Of 2024" class="w-100">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-content-top">
+                    <ul class="card-meta-list">
+                      <li>
+                        <a href="#" class="card-meta-link">
+                          <ion-icon name="person"></ion-icon>
+                          <span>by: Admin</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="card-meta-link">
+                          <ion-icon name="pricetags"></ion-icon>
+                          <span>Interior</span>
+                        </a>
+                      </li>
+                    </ul>
+                    <h3 class="h3 blog-title">
+                      <a href="#">"Designed to impress,built to embrace."</a>
+                    </h3>
+                  </div>
+                  <div class="blog-content-bottom">
+                    <div class="publish-date">
+                      <ion-icon name="calendar"></ion-icon>
+                      <time datetime="2022-27-04">January 01, 2025</time>
+                    </div>
+                    <a href="#" class="read-more-btn">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner">
+                  <img src="./assets/images/interier1.4.png" alt="The Most Inspiring Interior Design Of 2022" class="w-100">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-content-top">
+                    <ul class="card-meta-list">
+                      <li>
+                        <a href="#" class="card-meta-link">
+                          <ion-icon name="person"></ion-icon>
+                          <span>by: Admin</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="card-meta-link">
+                          <ion-icon name="pricetags"></ion-icon>
+                          <span>Interior</span>
+                        </a>
+                      </li>
+                    </ul>
+                    <h3 class="h3 blog-title">
+                      <a href="#">"Designed for rest,styled for you."</a>
+                    </h3>
+                  </div>
+                  <div class="blog-content-bottom">
+                    <div class="publish-date">
+                      <ion-icon name="calendar"></ion-icon>
+                      <time datetime=>Oct  09, 2025</time>
+                    </div>
+                    <a href="#" class="read-more-btn">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+ 
+            
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner">
+                  <img src="./assets/images/interier1.7.png" alt="The Most Inspiring Interior Design Of 2023" class="w-100">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-content-top">
+                    <ul class="card-meta-list">
+                      <li>
+                        <a href="#" class="card-meta-link">
+                          <ion-icon name="person"></ion-icon>
+                          <span>by: Admin</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="card-meta-link">
+                          <ion-icon name="pricetags"></ion-icon>
+                          <span>Interior</span>
+                        </a>
+                      </li>
+                    </ul>
+                    <h3 class="h3 blog-title">
+                      <a href="#">"Where design meets delicious moments."</a>
+                    </h3>
+                  </div>
+                  <div class="blog-content-bottom">
+                    <div class="publish-date">
+                      <ion-icon name="calendar"></ion-icon>
+                      <time datetime=>Aug 18, 2024</time>
+                    </div>
+                    <a href="#" class="read-more-btn">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="cta" aria-label="Call to action">
+        <div class="container">
+          <div class="cta-card">
+            <div class="card-content">
+              <h2 class="h2 card-title">Looking for a dream home?</h2>
+              <p class="card-text">We can help you realize your dream of a new home.</p>
+            </div>
+            <button class="btn cta-btn" type="button"><span>Explore Properties</span><ion-icon name="arrow-forward-outline"></ion-icon></button>
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="footer-top">
+      <div class="container">
+        
+        <div class="footer-brand">
+          <a href="#home" class="logo"><img src="./assets/images/logo4.png" alt= /></a>
+          <p class="section-text">Short blurb about your company.</p>
+          <ul class="contact-list">
+            <li><a href="#" class="contact-link"><ion-icon name="location-outline"></ion-icon><span>15/A,Silver Nest Tower Adyar,chennai-600020</span></a></li>
+            <li><a href="tel:+0123456789" class="contact-link"><ion-icon name="call-outline"></ion-icon><span>044-615155</span></a></li>
+            <li><a href="mailto:Kamalakannan9491@gmail.com" class="contact-link"><ion-icon name="mail-outline"></ion-icon><span>Kamalakannan9491@gmail.com</span></a></li>
+          </ul>
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link" aria-label="Facebook">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link" aria-label="Twitter">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link" aria-label="LinkedIn">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link" aria-label="YouTube">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-link-box">
+          <ul class="footer-list">
+            <li><p class="footer-list-title">Company</p></li>
+            <li><a href="#about" class="footer-link">About</a></li>
+            <li><a href="#blog" class="footer-link">Blog</a></li>
+            <li><a href="#property" class="footer-link">All Products</a></li>
+            <li><a href="#" class="footer-link">Locations Map</a></li>
+            <li><a href="#" class="footer-link">FAQ</a></li>
+            <li><a href="#contact" class="footer-link">Contact us</a></li>
+          </ul>
+
+          <ul class="footer-list">
+            <li><p class="footer-list-title">Services</p></li>
+            <li><a href="#" class="footer-link">Order tracking</a></li>
+            <li><a href="#" class="footer-link">Wish List</a></li>
+            <li><a href="#" class="footer-link">Login</a></li>
+            <li><a href="#" class="footer-link">My account</a></li>
+            <li><a href="#" class="footer-link">Terms &amp; Conditions</a></li>
+            <li><a href="#" class="footer-link">Promotional Offers</a></li>
+          </ul>
+
+          <ul class="footer-list">
+            <li><p class="footer-list-title">Customer Care</p></li>
+            <li><a href="#" class="footer-link">Login</a></li>
+            <li><a href="#" class="footer-link">My account</a></li>
+            <li><a href="#" class="footer-link">Wish List</a></li>
+            <li><a href="#" class="footer-link">Order tracking</a></li>
+            <li><a href="#" class="footer-link">FAQ</a></li>
+            <li><a href="#contact" class="footer-link">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">&copy; <span id="year">2025</span> <a href="#">Kamalakannan</a>. All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================== SCRIPTS =========================== -->
+  <script>
+    // Minimal nav toggle logic (structure-only; adapt to your script.js if needed)
+    const nav = document.querySelector('[data-navbar]');
+    const openBtn = document.querySelector('[data-nav-open-btn]');
+    const closeBtn = document.querySelector('[data-nav-close-btn]');
+    const overlay = document.querySelector('[data-overlay]');
+
+    function openNav() {
+      nav?.classList.add('active');
+      overlay?.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeNav() {
+      nav?.classList.remove('active');
+      overlay?.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    openBtn?.addEventListener('click', openNav);
+    closeBtn?.addEventListener('click', closeNav);
+    overlay?.addEventListener('click', closeNav);
+
+    // Close nav on link click
+    document.querySelectorAll('[data-nav-link]').forEach(link => {
+      link.addEventListener('click', closeNav);
+    });
+
+    // Current year (optional)
+    const y = document.getElementById('year');
+    if (y) y.textContent = new Date().getFullYear();
+  </script>
+
+  <!-- If you prefer using your external JS, comment out the block above and use the line below -->
+  <!-- <script src="./assets/js/script.js"></script> -->
+
+  <!-- Ionicons (icons used in markup) -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script>
+    
+
+let i = 0;
+    let images = [
+      "./assets/images/casagrand2.png",
+      "./assets/images/casagrand6.png",
+      "./assets/images/casagrand7.png",
+      "./assets/images/casagrand8.png",
+    
+    ];
+
+    function showImage() {
+      document.getElementById("pic").src = images[i];
+    }
+
+    function nxt() {
+      i++;
+      if (i >= images.length) i = 0;
+      showImage();
+    }
+
+    function prev() {
+      i--;
+      if (i < 0) i = images.length - 1;
+      showImage();
+    }
+    
+
+  
+    // Auto slider (optional)
+    setInterval(nxt, 2000);
+  </script>
+</body>
+</html>
